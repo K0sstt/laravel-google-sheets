@@ -5,7 +5,9 @@ And don`t forget enable GoogleDrive API and GoogleSheets API.
 - [revolution/laravel-google-sheets](https://packagist.org/packages/revolution/laravel-google-sheets)
 - [google console](https://console.cloud.google.com)
 
-When created google sheet, take sheet id https://docs.google.com/spreadsheets/d/ **-->**1dCRKI-KbBLUy_QVa4zA_oVXWul7F1Rk93tvdb34Oo_8**<--** /edit#gid=0
+When created google sheet, take sheet id:
+https://docs.google.com/spreadsheets/d/ **-->1dCRKI-KbBLUy_QVa4zA_oVXWul7F1Rk93tvdb34Oo_8<--** /edit#gid=0
+
 Add this in .env:
 #Google sheet
 GOOGLE_SHEET_ID=1dCRKI-KbBLUy_QVa4zA_oVXWul7F1Rk93tvdb34Oo_8
