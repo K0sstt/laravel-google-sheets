@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="036c5804-f289-4179-97b8-02957d887531" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +174,9 @@
       <workItem from="1590046460399" duration="18000" />
       <workItem from="1590055453852" duration="10035000" />
       <workItem from="1590392110161" duration="778000" />
-      <workItem from="1590519329317" duration="6257000" />
+      <workItem from="1590519329317" duration="6979000" />
+      <workItem from="1590566470302" duration="18000" />
+      <workItem from="1590698976024" duration="1117000" />
     </task>
     <servers />
   </component>
@@ -198,10 +200,10 @@
       <screen x="0" y="29" width="1600" height="871" />
     </state>
     <state x="416" y="89" width="757" height="748" key="#phpunit.xml/0.29.1600.871@0.29.1600.871" timestamp="1588062572215" />
-    <state x="576" y="229" width="416" height="484" key="FileChooserDialogImpl" timestamp="1590397237256">
+    <state x="576" y="229" width="416" height="484" key="FileChooserDialogImpl" timestamp="1590566486159">
       <screen x="0" y="29" width="1600" height="871" />
     </state>
-    <state x="576" y="229" width="416" height="484" key="FileChooserDialogImpl/0.29.1600.871@0.29.1600.871" timestamp="1590397237256" />
+    <state x="576" y="229" width="416" height="484" key="FileChooserDialogImpl/0.29.1600.871@0.29.1600.871" timestamp="1590566486159" />
     <state x="479" y="190" width="641" height="546" key="find.popup" timestamp="1588071448881">
       <screen x="0" y="29" width="1600" height="871" />
     </state>
