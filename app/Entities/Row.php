@@ -2,10 +2,13 @@
 
 namespace App\Entities;
 
-use App\Interfaces\Entitie;
+use App\Interfaces\JsonSerializableInterface;
+use App\Traits\JsonSerializableTrait;
 
-final class Row implements Entitie
+final class Row implements JsonSerializableInterface
 {
+    use JsonSerializableTrait;
+
     /**
      * @var string
      */
@@ -27,24 +30,6 @@ final class Row implements Entitie
     ) {
         $this->first = $first;
         $this->second = $second;
-    }
-
-    /**
-     * @return array
-     */
-    public function toArray(): array
-    {
-        return [
-            'first' => $this->first,
-            'second' => $this->second,
-        ];
-    }
-
-    /**
-     * @return string
-     */
-    public function toJson(): string
-    {
-        return json_encode($this->toArray());
+        $this->toArray();
     }
 }

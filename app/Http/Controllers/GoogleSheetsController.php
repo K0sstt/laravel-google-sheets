@@ -32,7 +32,7 @@ class GoogleSheetsController extends Controller
     public function getAllRows()
     {
         $rows = $this->service->getAllRows();
-
+        new Row('1', '2');
         return view('layouts.app', compact('rows'));
     }
 
