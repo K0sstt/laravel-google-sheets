@@ -26,6 +26,9 @@ class GoogleSheetsController extends Controller
         $this->service = $service;
     }
 
+    /**
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function getAllRows()
     {
         $rows = $this->service->getAllRows();
@@ -33,6 +36,10 @@ class GoogleSheetsController extends Controller
         return view('layouts.app', compact('rows'));
     }
 
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function addRow(Request $request)
     {
         $row = new Row(

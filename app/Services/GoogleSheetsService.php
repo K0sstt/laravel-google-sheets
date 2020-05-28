@@ -25,13 +25,17 @@ final class GoogleSheetsService
      */
     private $sheetsService;
 
+    /**
+     * GoogleSheetsService constructor.
+     * @throws \Google_Exception
+     */
     public function __construct()
     {
         $this->sheetId = config('services.google_sheets.id');
         $this->sheetName = config('services.google_sheets.name');
 
         $client = new \Google_Client();
-        $client->setApplicationName('Google Sheets and PHP');
+        $client->setApplicationName(config('app.name'));
         $client->setScopes([Google_Service_Drive::DRIVE, Google_Service_Sheets::SPREADSHEETS]);
         $client->setAuthConfig(storage_path('app/public/'.config('services.google_sheets.access_file')));
         $this->sheetsService = new \Google_Service_Sheets($client);
