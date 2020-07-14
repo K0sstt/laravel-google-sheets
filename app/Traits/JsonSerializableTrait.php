@@ -34,7 +34,6 @@ trait JsonSerializableTrait
             $data[$name] = $property;
         }
 
-        dd($data);
         return $data;
     }
 
